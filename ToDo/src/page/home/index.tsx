@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useState } from "react";
 import { EmptyTask } from "../../components/EmptyTask";
 import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
@@ -10,7 +10,7 @@ export const Home = () => {
   const [todos, setTodos] = useState<TodoInterface[]>([]);
 
   const handleDelete = (numero: number) => {
-    setTodos(todos.filter(item => item.id !== numero));
+    setTodos(todos.filter((item) => item.id !== numero));
   };
 
   const handleCreate = (value: string) => {
@@ -18,7 +18,7 @@ export const Home = () => {
       ...todos,
       {
         id: todos.length,
-        titulo: value
+        titulo: value,
       },
     ]);
   };

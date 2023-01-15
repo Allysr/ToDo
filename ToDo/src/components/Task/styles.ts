@@ -102,4 +102,12 @@ export const TaskStyled = styled.div`
   .trash: hover {
     color: #C55858;
   }
+
+  .modalDesativado {
+    display: none;
+  }
+
+  .modalAtivo {
+    display: flex;
+  }
 `;
