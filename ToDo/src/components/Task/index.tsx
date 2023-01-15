@@ -3,12 +3,11 @@ import { Trash } from "phosphor-react";
 
 interface TaskProps {
   task: string;
+  numero: number;
+  handleDelete: (key:number) => void;
 }
 
 export const Task = (props: TaskProps) => {
-  const handleDelete = () => {
-    alert("DELETE");
-  };
 
   return (
     <TaskStyled>
@@ -17,7 +16,7 @@ export const Task = (props: TaskProps) => {
         <span className="text">{props.task}</span>
         <span className="checkmark"></span>
       </label>
-      <button onClick={handleDelete}>
+      <button onClick={() => props.handleDelete(props.numero)}>
         <Trash className="trash" size={20} weight="regular" />
       </button>
     </TaskStyled>
