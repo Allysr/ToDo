@@ -5,6 +5,10 @@
 }
 
 body {
+    height: 95vh;
     background-color: #FAF9F6;
     font-family: 'Noto Sans JP', sans-serif;
+    background-image: url("src/assets/Deco.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 0px;
 }
