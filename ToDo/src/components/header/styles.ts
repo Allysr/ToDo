@@ -1,5 +1,37 @@
 import styled from "styled-components";
 
 export const HeaderStyled = styled.div`
-  color: ${(props) => props.theme.colors.default};
+  display: flex;
+  margin: 42px 72px;
+  align-items: center;
+  justify-content: space-between;
+  
+  nav {
+    display: flex;
+    gap: 40px;
+  }
+
+  a {
+    text-decoration: none;
+    color: ${(props) => props.theme.colors.defaultBlack};
+    font-size: 20px;
+  }
+
+  img {
+    height: 50px;
+  }
+
+  .user {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+
+  div {
+    display: flex;
+    color: ${(props) => props.theme.colors.defaultBlack};
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+  }
 `;
