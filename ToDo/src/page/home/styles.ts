@@ -13,7 +13,7 @@ export const HomeStyled = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0px 72px;
+    margin: 100px 72px;
     gap: 32px;
   }
 `;

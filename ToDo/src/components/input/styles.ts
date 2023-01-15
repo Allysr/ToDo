@@ -4,7 +4,7 @@ export const InputStyled = styled.label`
   border: solid 2px ${(props) => props.theme.colors.defaultBlack};
   border-radius: 8px;
   width: 557px;
-  height: 40px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
