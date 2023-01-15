@@ -7,4 +7,4 @@ export const DefaultTheme = {
       defaultGreen: "0CBC8B", //verde
       defaultBrown: "#C28426" // marrom      
     }
-  }
+  } 
