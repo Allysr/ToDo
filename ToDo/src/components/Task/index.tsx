@@ -6,6 +6,10 @@ interface TaskProps {
 }
 
 export const Task = (props: TaskProps) => {
+  const handleDelete = () => {
+    alert("DELETE");
+  };
+
   return (
     <TaskStyled>
       <label className="container">
@@ -13,8 +17,8 @@ export const Task = (props: TaskProps) => {
         <span className="text">{props.task}</span>
         <span className="checkmark"></span>
       </label>
-      <button>
-        <Trash className="trash"size={20} weight="regular" />
+      <button onClick={handleDelete}>
+        <Trash className="trash" size={20} weight="regular" />
       </button>
     </TaskStyled>
   );
