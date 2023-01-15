@@ -1,9 +1,9 @@
 <h1 align="center">
-<br> Crud com Node
+<br> ToDo com React
 </h1>
 
 <h4 align="center">
-  Exercitando o crud com Typescript!
+  Exercitando o React com Typescript!
 </h4>
 
 <h1>
