@@ -8,15 +8,15 @@ export const Home = () => {
   return (
     <HomeStyled>
       <Header />
-      <EmptyTask></EmptyTask>
-      {/* <div className="content">
+       <div className="content">
         <h2>O que precisa ser feito?</h2>
         <Input placeholder={"Escreva aqui sua tarefa..."}></Input>
-        <div className="tasks">
+        {/* <div className="tasks">
           <Task task={"OLA"}></Task>
           <Task task={"teste"}></Task>
-        </div>
-      </div> */}
+        </div> */}
+        <EmptyTask></EmptyTask>
+      </div> 
     </HomeStyled>
   );
 };

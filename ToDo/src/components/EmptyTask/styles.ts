@@ -6,8 +6,9 @@ export const EmptyTaskStyled = styled.div`
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-top: 30px;
 
     p {
-        color:${(props) => props.theme.colors.defaultBlack};
+        color:#797979;
     }
 `;
