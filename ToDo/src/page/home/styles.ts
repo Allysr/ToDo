@@ -16,4 +16,10 @@ export const HomeStyled = styled.div`
     margin: 100px 72px;
     gap: 32px;
   }
+
+  .tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 `;

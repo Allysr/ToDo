@@ -3,7 +3,7 @@ export const DefaultTheme = {
       defaultBG: "#FAF9F6", 
       defaultBlack: "#454545", 
       defaultGray: "D9D9D9", 
-      greenSecondary: "797979", 
+      secondaryGray: "797979", 
       defaultGreen: "0CBC8B", 
       defaultBrown: "#C28426", 
       defaultInput: "F9F9F9"    
