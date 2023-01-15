@@ -17,14 +17,23 @@ export const HeaderStyled = styled.div`
     font-size: 20px;
   }
 
+  a: hover {
+    color: ${(props) => props.theme.colors.defaultBrown}
+  }
+
   img {
     height: 50px;
+    cursor: pointer;
   }
 
   .user {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+  }
+
+  p {
+    cursor: pointer;
   }
 
   div {
