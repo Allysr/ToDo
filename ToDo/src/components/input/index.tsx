@@ -1,7 +1,13 @@
 import { InputStyled } from "./styles"
 
-export const Teste = () => {
+interface InputProps {
+    children: String,
+}
+
+export const Input:React.FC<InputProps> = ({children}) => {
     return (
-        <InputStyled>Olá</InputStyled>
+        <InputStyled>
+           {children}
+        </InputStyled>
     )
 }
