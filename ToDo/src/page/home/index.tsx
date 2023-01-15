@@ -7,6 +7,7 @@ export const Home = () => {
     <HomeStyled>
       <Header/>
       <h2>O que precisa ser feito?</h2>
+      <Input placeholder={"Escreva aqui sua tarefa..."}></Input>
     </HomeStyled>
   )
 }

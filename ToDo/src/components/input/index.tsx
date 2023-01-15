@@ -1,13 +1,16 @@
-import { InputStyled } from "./styles"
+import { InputStyled } from "./styles";
 
 interface InputProps {
-    children: String,
-}
+    placeholder: string;
+  }
 
-export const Input:React.FC<InputProps> = ({children}) => {
-    return (
-        <InputStyled>
-           {children}
-        </InputStyled>
-    )
-}
+export const Input = (props: InputProps) => {
+  return (
+  <InputStyled>
+    <input
+        placeholder={props.placeholder}
+      />
+    <button>+</button>
+  </InputStyled>
+  )
+};
