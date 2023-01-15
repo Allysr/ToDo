@@ -9,6 +9,8 @@ export const Header = () => {
                 <a href="#">Favorites</a>
                 <a href="#">Collections</a>
                 <a href="#">Calendar</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
             </nav>
             <div>
                 <p>Ana Luiza</p>
